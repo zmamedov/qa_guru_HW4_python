@@ -49,6 +49,7 @@ def test_circle():
 
     assert length == 144.51326206513048
 
+
 def test_random_list():
     """
     Создайте список из 10 случайных чисел от 1 до 100 (включая обе границы) и отсортируйте его по возрастанию.
@@ -70,6 +71,7 @@ def test_random_list():
     assert len(l) == 10
     assert all(l[i] <= l[i + 1] for i in range(len(l) - 1))
 
+
 def test_unique_elements():
     """
     Удалите из списка все повторяющиеся элементы
@@ -81,6 +83,7 @@ def test_unique_elements():
     assert isinstance(l, list)
     assert len(l) == 10
     assert l == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 
 def test_dicts():
     """
